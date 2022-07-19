@@ -9,9 +9,9 @@ We used [Fashion Video Dataset](https://vision.cs.ubc.ca/datasets/fashion/) as o
 
 1. Setup DensePose according to [here](https://github.com/facebookresearch/Densepose). Then we can generate DensePose IUV from one single RGB image.
 2. UV extension: results in IUV with full silhouette coverage  
-  ```
-  python extrapolation_IUV_mix_final.py
-  ```
+    ```
+    python extrapolation_IUV_mix_final.py
+    ```
 3. UV optimization  
     3.1 optimization: remove artifacts in IUV  
       ```
@@ -21,11 +21,11 @@ We used [Fashion Video Dataset](https://vision.cs.ubc.ca/datasets/fashion/) as o
       I. random sampling for T_0 with  
         ```
         python 0.texture_random_sampling.py  
-        ```
-      II.texture extrapolation for T_0 with  
+        ```  
+      II.texture extrapolation for T_0 with
         ```
         python 1.texture_extrapolation.py
-        ```
+        ```  
 4. Temporal Relocation  
     I.  random sampling for all frames with  
       ```
