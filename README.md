@@ -2,7 +2,7 @@
 Here you can find the source code for the CVPR 2022 paper "TemporalUV: Capturing Loose Clothing with Temporally Coherent UV Coordinates". Authors: You Xie(TUM), Huiqi Mao(NUS), Angela Yao(NUS), Nils Thuerey(TUM).
 
 Our [paper](https://arxiv.org/pdf/2204.03671.pdf)  
-Our [vide0](https://youtu.be/mDjzzMDy9Ko)  
+Our [video](https://youtu.be/mDjzzMDy9Ko)  
 You can also check out [here](https://ge.in.tum.de/publications/temporaluv-capturing-loose-clothing-with-temporally-coherent-uv-coordinates/) for further details.
 
 We used [Fashion Video Dataset](https://vision.cs.ubc.ca/datasets/fashion/) as our training dataset.
