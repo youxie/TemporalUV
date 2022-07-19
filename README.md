@@ -22,12 +22,12 @@ We used [Fashion Video Dataset](https://vision.cs.ubc.ca/datasets/fashion/) as o
         ```
         python 0.texture_random_sampling.py  
         ```  
-        II.texture extrapolation for T_0 with  
+        II. texture extrapolation for T_0 with  
         ```
         python 1.texture_extrapolation.py
         ```  
 4. Temporal Relocation  
-    I.  random sampling for all frames with  
+    I. random sampling for all frames with  
       ```
       python 0.texture_random_sampling_all.py  
       ```
@@ -36,7 +36,7 @@ We used [Fashion Video Dataset](https://vision.cs.ubc.ca/datasets/fashion/) as o
   		python 1.temporal_relocation.py  
       ```
 5. Model training  
-    I.  Train the model with IUV only  
+    I. Train the model with IUV only  
       ```
   		python 0.training_with_UV.py  
       ```
@@ -44,7 +44,7 @@ We used [Fashion Video Dataset](https://vision.cs.ubc.ca/datasets/fashion/) as o
       ```
   		python 1.training_img_discriminator.py  
       ```
-    III.Train the model with both IUVs and images  
+    III. Train the model with both IUVs and images  
       ```
   		python 2.trianing_with_UV_img.py
       ```
