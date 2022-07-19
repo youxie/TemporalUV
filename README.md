@@ -22,7 +22,7 @@ We used [Fashion Video Dataset](https://vision.cs.ubc.ca/datasets/fashion/) as o
         ```
         python 0.texture_random_sampling.py  
         ```  
-      II.texture extrapolation for T_0 with
+      II.texture extrapolation for T_0 with  
         ```
         python 1.texture_extrapolation.py
         ```  
