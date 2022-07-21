@@ -26,6 +26,7 @@ We used [Fashion Video Dataset](https://vision.cs.ubc.ca/datasets/fashion/) as o
         ```
         python 1.texture_extrapolation.py
         ```  
+After UV optimization, we subsample the data into lower resolution [224,176] for faster training.  
 4. Temporal Relocation  
     I. random sampling for all frames with  
       ```
